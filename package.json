@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://farhansyflu.github.io/farhansyflu-Portofolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -23,7 +24,6 @@
     "tailwindcss": "^4.1.12"
   },
   "devDependencies": {
-    "homepage": "https://farhansyflu.github.io/farhansyflu-Portofolio",
     "@eslint/js": "^9.33.0",
     "@types/react": "^19.1.10",
     "@types/react-dom": "^19.1.7",
