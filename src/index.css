@@ -6,12 +6,9 @@
   }
 }
 
-.darkveil-canvas {
-  width: 100%;
-  height: 100%;
-  display: block;
+.heroImg{
+border-radius: 50px;
 }
-
 
 .bg-glass{
   background :linear-gradient(135deg, rgba(255, 255, 255, 0.137),rgba(255, 255, 255, 0.296),rgba(255, 255, 255, 0.542));
@@ -34,5 +31,4 @@
 
 .card{
   background:linear-gradient(135deg,rgba(0, 0, 255, 0.61),rgba(255, 0, 255, 0.653));
-   box-shadow: 2px 2px 20px 3px rgb(149, 0, 152);
 }

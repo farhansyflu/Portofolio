@@ -75,7 +75,7 @@ export const listTools = [
 ];
 
 import Proyek1 from "/assets/proyek/proyek1.png";
-import Proyek2 from "/assets/proyek/proyek2.png";
+import Proyek2 from "/assets/proyek/proyek2.webp";
 import Proyek3 from "/assets/proyek/proyek3.png";
 
 export const listProyek = [
@@ -86,14 +86,16 @@ export const listProyek = [
     desk: "Sebuah website yang bisa menghitung seberapa cepat kamu mengetik",
     tools: ["HTML", "CSS", "Javascript"],
     dad: "200",
+    link:"https://farhansyflu.github.io/farhansyflu-typing-speed-test/"
   },
   {
     id: 2,
     gambar: Proyek2,
     nama: "Counter",
     desk: "Kamu bisa menggunakannya untuk menghitung luas atau volume suatu bangun",
-    tools: ["HTML", "CSS", "Javascript"],
+    tools: ["HTML", "CSS", "Astro"],
     dad: "300",
+    link:""
   },
   {
     id: 3,
@@ -102,5 +104,6 @@ export const listProyek = [
     desk: "Website yang bisa digunakan untuk mengecek cuaca hari ini di berbagai daerah",
     tools: ["HTML", "CSS", "Javascript"],
     dad: "400",
+    link:"https://farhansyflu.github.io/farhansyflu--weather-app/"
   },
 ];

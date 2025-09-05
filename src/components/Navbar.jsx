@@ -19,7 +19,7 @@ const Navbar = () => {
   },[])
 
   return (
-    <div className='navbar py-7 flex items-center justify-between  '>
+    <div className='navbar py-7 flex items-center justify-between'>
         <div className="logo">
             <h1 className='text-3xl font-bold text-black p-1 bg-transparent text-white absolute z-49'>Portofolio</h1>
         </div>

@@ -2,9 +2,7 @@ import DataImage, { listProyek } from "./data"
 import "./index.css"
 import { listTools } from "./data"
 import 'animate.css'
-import SplashCursor from './components/SplashCursor/SplashCursor'
 import DarkVeil from "./DarkVeil"
-import GlareHover from './GlareHover'
 
 
 function App() {
@@ -30,7 +28,7 @@ function App() {
             </div>
         </div>
         
-        <img src={DataImage.HeroImage} alt="Hero Image" className="w-[500px] md:ml-auto animate__animated animate__fadeInUp animate__delay-3s rounded-bl-2xl"  loading="lazy"/>
+        <img src={DataImage.HeroImage} alt="Hero Image" className="w-[500px] md:ml-auto animate__animated animate__fadeInUp animate__delay-3s heroImg"  loading="lazy"/>
       </div>
 
       {/* Tentang */}
@@ -68,7 +66,7 @@ function App() {
             ))}
           </div>
         </div>
-      </div>
+      </div>n
 
       {/* proyek */}
       <div className="proyek mt-32 py-10" id="proyek">
@@ -89,7 +87,7 @@ function App() {
                       ))}
                     </div>
                       <div className="mt-8 text-center">
-                      <a className="bg-button p-3 rounded-xl block cursor-pointer" href="https://farhansyflu.github.io/farhansyflu--weather-app/">Lihat Website</a>  
+                      <a className="bg-button p-3 rounded-xl block cursor-pointer" href={proyek.link} target="_blank" rel="noopener noreferrer">Lihat Website</a>  
                       </div>    
                   </div>
               </div>
