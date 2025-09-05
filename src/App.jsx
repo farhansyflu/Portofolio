@@ -66,7 +66,7 @@ function App() {
             ))}
           </div>
         </div>
-      </div>n
+      </div>
 
       {/* proyek */}
       <div className="proyek mt-32 py-10" id="proyek">
