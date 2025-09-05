@@ -38,14 +38,14 @@ function App() {
         <div className="xl:w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-glass rounded-2xl" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
          <p>Hi, Perkenalkan saya Farhan Syifa'ul. Saya adalah seorang mahasiswa STDI Imam Syafi'i Jember yang sedang mulai belajar tentang dunia pengembangan web. Saya senang belajar hal-hal baru dan menerapkannya melalui proyek-proyek kecil. Portofolio ini saya buat sebagai wadah untuk menampilkan perjalanan belajar dan hasil karya saya.</p>
          <div>
-          <div className="flex gap-6 items-center mt-10">
+          <div className="flex gap-2 sm:gap-6 items-center justify-center sm:justify-start mt-10">
             <div className="bg-primary p-5 rounded-2xl">
               <h1 className="text-4xl">3<span></span></h1>
-              <p>Proyek Selesai</p>
+              <p className="text-sm sm:text-lg">Proyek Selesai</p>
             </div>
             <div className="bg-primary p-5 rounded-2xl">
               <h1 className="text-4xl">0.5<span>+</span></h1>
-              <p>Tahun Pengalaman</p>
+              <p className=" text-sm sm:text-lg">Tahun Pengalaman</p>
             </div>
           </div>
          </div>
