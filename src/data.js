@@ -95,7 +95,7 @@ export const listProyek = [
     desk: "Kamu bisa menggunakannya untuk menghitung luas atau volume suatu bangun",
     tools: ["HTML", "CSS", "Astro"],
     dad: "300",
-    link:""
+    link:"https://farhansyflu.github.io/farhansyflu-counter/"
   },
   {
     id: 3,
